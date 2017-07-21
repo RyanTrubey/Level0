@@ -63,16 +63,29 @@ public static void main(String[] args) {
 		System.out.println(a + " " + b + " " + c + " " + d + " " + e + " " + f + " " + g + " " + " " + h + " " + i + " " + j );
 	} */
 
-	for(int i = 1; i < 7; i++){
-		
-		for(int j = 0; j <= i; j++){
+	/* for(int i = 0; i < 7; i++){
+		for(int j = 0; j < i; j++){
 			System.out.print("*");
 		}
-	}
+		System.out.println("*");
+	} */
 	
 	/* for(int i = 0; i > -101; i-=1){
 		int j = i+100;
 		System.out.println(j);
 	} */
+	
+	 for(int i = 1; i < 21; i++){
+		if(i%5 == 0 && i%3 == 0){
+			System.out.println("Fizz Buzz");
+		} else if (i%5 == 0){
+			System.out.println("Buzz");
+		} else if (i%3 == 0){
+			System.out.println("Fizz");
+		} else {
+			System.out.println(i);
+		}
+	} 
+	
 }
 }
